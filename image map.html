@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>Image Map
+</title>
+</head>
+
+
+<body>
+<img src="C:\xampp\htdocs\fruit.webp" alt="fruit" usemap="#fruit">
+
+<map name="fruit">
+<area shape="circle" coords="157,137,99" href="https://simple.wikipedia.org/wiki/Tomato" onclick="tomato()">
+<area shape="poly" coords="448,68,424,96,406,93,388,98,344,141,316,209,318,226,333,297,371,333,397,348,428,350,439,336,404,256,408,199,423,165,443,133,439,113,467,89,459,75,452,67" 
+href="https://www.healthline.com/nutrition/foods/bananas" onclick="banana()">
+</map>
+
+
+<script>
+function tomato()
+{
+    alert("you clicked the tomato  !  ")
+}
+function banana()
+{
+   alert("you clicked banana  ????  ")
+}
+</script>
+</body>
+</html>
