@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>HTML Link</title>
+
+<link rel="stylesheet" href="link1.css">
+</head>
+
+
+<!--LINK-->
+<body>
+
+<!--LINK    :   link color visited->purple,not visited->blue,active link->red this is by default 
+you can make your own colors using css---->
+<a href="https://www.w3schools.com/html/html_links_bookmarks.asp">click here</a><br>
+
+<!--target    : _self:default and opens in same page,_parent:opens in parent window,_blank:opens in new tab,_top:opens at top-->
+<h1>target</h1>
+
+<a href="https://www.w3schools.com/html/html_links_bookmarks.asp" target="_self">self link</a><br>
+<a href="https://www.w3schools.com/html/html_links_bookmarks.asp" target="_blank">blank link</a><br>
+<a href="https://www.w3schools.com/html/html_links_bookmarks.asp" target="_parent">parent link</a><br>
+<a href="https://www.w3schools.com/html/html_links_bookmarks.asp" target="_top">top link</a><br>
+<hr>
+<h1>relative and absolute</h1>
+<!--absolute v/s relative url    :    absolute: including http//www.    relative:without http//wwww -->
+<a href="html/html_links_bookmarks.asp">relative link</a><br>
+<a href="https://www.w3schools.com/html/html_links_bookmarks.asp" >absolute link</a><br>
+<hr>
+
+<h1>image link</h1>
+<!--image link      :    -->
+ <a href="https://www.w3schools.com/html/html_links_bookmarks.asp" ><img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="image"  width="100"  height="100"></a>
+<br><hr>
+<h1>button link</h1>
+<!--button link      :    -->
+<button onclick="document.location='https://www.w3schools.com/html/html_links_bookmarks.asp'">click button</button>
+<br><hr>
+<h1>mail link</h1>
+<!--mail link      :    mailto   atribute is used in href  -->
+<a href="mailto:nainaz.13102000@gmail.com" >nainaz.13102000@gmail.com</a><br><hr>
+<h1>link title</h1>
+<!--link with title      :   if we keep cursor to that link it will show the title that we mentioned in our program -->
+<a href="https://www.w3schools.com/html/html_links_bookmarks.asp"  title="w3 schools">W3C</a><br><hr>
+
+
+<h1>bookmark</h1>
+<!--bookmark (to jump to that location)   :   first create id and mention that id in href -->
+<!--here i created book mark for chapter 10 and 13-->
+
+<a href="#c10">jump to chapter 10</a><br>
+<a href="#c13">jump to chapter 13</a><br>
+
+<!-- jump to another web page also possible-->
+<a href="https://www.w3schools.com/html/html_links_bookmarks.asp#c14" title="chapter 14 not mentioned here so it will be on another web page">jump to chapter 14</a>
+<br>
+
+<h2>chapter 1</h2>
+<p>this is chapter 1</p>
+
+<h2>chapter 2</h2>
+<p>this is chapter 2</p>
+
+<h2>chapter 3</h2>
+<p>this is chapter 3</p>
+
+
+<h2>chapter 4</h2>
+<p>this is chapter 4</p>
+
+<h2>chapter 5</h2>
+<p>this is chapter 5</p>
+
+<h2>chapter 6</h2>
+<p>this is chapter 6</p>
+
+<h2>chapter 7</h2>
+<p>this is chapter 7</p>
+
+<h2>chapter 8</h2>
+<p>this is chapter 8</p>
+
+<h2>chapter 9</h2>
+<p>this is chapter 9</p>
+
+<h2 id="c10">chapter 10</h2>
+<p>this is chapter 10</p>
+
+<h2>chapter 11</h2>
+<p>this is chapter 11</p>
+
+<h2>chapter 12</h2>
+<p>this is chapter 12</p>
+
+<h2 id="c13">chapter 13</h2>
+<p>this is chapter 13</p>
+
+<h2 id="c14">chapter 14</h2>
+<p>this is chapter 14</p>
+
+
+
+<hr>
+
+
+</body>
+
+</html>
